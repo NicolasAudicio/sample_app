@@ -8,6 +8,9 @@
     "watch:css": "sass  ./app/assets/stylesheets/application.scss  ./app/assets/builds/application.css --watch",
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
   },
+  "engines": {
+    "node": "22.13.0"
+  },
   "browserslist": [
     "defaults"
   ],
@@ -17,7 +20,7 @@
     "icons": "^1.0.0"
   },
   "devDependencies": {
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.25.0",
     "sass": "^1.84.0"
   }
 }
